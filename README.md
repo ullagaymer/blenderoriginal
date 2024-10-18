@@ -14,6 +14,18 @@ motion tracking and video editing.
 + adds few pixelformats to video editor (gbrp, gbrp10le, gbrp12le)
 + adds new video codec (libaom-av1)
 
++ crf settings as:
+   FFM_CRF_LOSSLESS = 0,
+   FFM_CRF_PERC_LOSSLESS = 17,
+   FFM_CRF_HIGH = 20,
+   FFM_CRF_MEDIUM = 23,
+   FFM_CRF_LOW = 26,
+   FFM_CRF_VERYLOW = 29,
+   FFM_CRF_LOWEST = 32,
+
+
+
+
 ![Blender screenshot](https://code.blender.org/wp-content/uploads/2018/12/springrg.jpg "Blender screenshot")
 
 Project Pages
